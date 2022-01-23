@@ -13,7 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Our Community | Connect with other patients and your doctors</title>
+    <title>Therapy | Let's find your therapist</title>
   </head>
   <body>
     <header>
@@ -36,72 +36,41 @@
 
     <main>
 
-        <h1 class="text-center">Connect with others</h1>
+        <h1 class="text-center">Contact us</h1>
 
-        <div class="app-container p-y-3">
-
-
-            <div class=" app">
-                <div>
-                    <h2>Plan your day and get inspired everyday with motivational quotes</h2>
-                </div>
-                <div>
-
-                    <img src="../img/page1.png" alt="connecting with others">
-                </div>
+        <form class="formulario">
+            <div class="formulario__campo ">
+                <div class="nombre-apellido">
 
 
-            </div>
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre" id="nombre">
 
 
-            <div class=" app">
 
-                
-                <div>
-                    <img src="../img/chatting.png" alt="find your chat">
-                    
-                </div>
-                
-                <div>
-                    <h2>Connect and make friends with a community around the world!</h2>
+                    <label for="apellido"></label>
+                    <input type="text" placeholder="Apellido" id="apellido">
+
 
                 </div>
             </div>
-
-
-            <div class=" app">
-
-                
-
-                <div>
-
-                    <h2>Now it will be much easier to reach out your doctors</h2>
-                </div>
-                <div>
-
-                    <img src="../img/friends.png" alt="Make friends and contact your doctors">
-                </div>
-
-
+            <div class="formulario__campo">
+                <label for="phone"></label>
+                <input type="tel" name="phone" id="phone" placeholder="Teléfono">
             </div>
-
-
-
-
-        </div>
-
-        <div class="container btn--index">
-                
+            <div class="formulario__campo--textarea">
+                <label for="mensaje"></label>
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            </div>
             <div>
-                <a  href="#"><h3>Download The App</h3></a>
+                <label for="Enviar"></label>
+                <input class="btn--formulario" type="submit" name="enviar" id="enviar" value="Enviar">
             </div>
-        </div>
 
-
+        </form>
 
     </main>
 
-    
     <footer >
         <div>
             <img src="../img/logo-cancerCnect.png" alt="logo">
@@ -109,7 +78,7 @@
                 <h4>CancerCnect is an organization that hope to join cancer patients around the world to find support and somebody to share experience with</h4>
             </div>
         </div>
-
+  
         <div>
             <div class="footer-item">
                 <h4>Discover</h4>
@@ -118,13 +87,13 @@
                 <div><a href="#">Health</a></div>
             </div>
         </div>
-
-
+  
+  
         <div>
             <div class="footer-item">
                 <div><a href="#"><h4>Contact us  <i class="fab fa-whatsapp"></i></h4></a></div>
                 <div>Find us in 298 N Ohioville Rd, New Paltz, NY 12561</div>
-
+  
                 <div class="social-media">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-instagram"></i>
@@ -132,5 +101,5 @@
                 </div>
             </div>
         </div>
-
+  
     </footer>
