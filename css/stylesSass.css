@@ -116,8 +116,8 @@ h1 {
   margin: 0 auto;
   max-width: 80%; }
   .app-container .app {
-    display: grid;
-    grid-template-columns: 40% 60%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -227,4 +227,11 @@ footer {
         font-size: 3rem;
         padding-right: 1rem; }
         footer .footer-item .social-media i:last-of-type {
-          padding: 0; } }
+          padding: 0; }
+  .app-container .app {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; } }
