@@ -1,13 +1,16 @@
 
 /* base */
-@import 'base/variables.scss';
-@import 'base/global.scss';
+@import 'base/variables';
+@import 'base/global';
+@import 'base/utilities';
+@import 'base/components';
 
 
 /* sections */
-@import 'sections/header.scss';
-
-
+@import 'sections/header';
 
 /* pages */
-@import 'pages/index.scss';
+@import 'pages/index';
+
+/* responsive */
+@import 'base/responsive';

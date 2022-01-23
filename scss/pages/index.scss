@@ -11,7 +11,6 @@
 }
 
 
-
 .main__contenido {
     display: flex;
     flex-direction: column;
@@ -19,14 +18,4 @@
     align-items: center;
 }
 
-.btn--index {
-    background-color: $btn-primary;
-    padding: 2rem 20rem;
-    border-radius: 1.5rem;
-    border: 1px solid black;
-    margin-bottom: 3rem;
-}
 
-.btn--index h3 {
-    margin: 0;
-}

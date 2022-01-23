@@ -1,5 +1,6 @@
 /* base */
 /* color palette */
+/* variables responsive */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -23,11 +24,34 @@ ul {
   list-style-type: none;
   padding: 0; }
 
+.container {
+  max-width: 95%;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.btn--index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #CFE2F3;
+  max-width: 30rem;
+  width: 80%;
+  height: 8rem;
+  background-color: #CFE2F3;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  margin-bottom: 3rem; }
+  .btn--index h3 {
+    margin: 0; }
+
 /* sections */
 /* --------------- nav --------------- */
 .logo {
   font-size: 3rem;
-  text-align: center; }
+  text-align: center;
+  background-color: #CFE2F3; }
   .logo img {
     max-width: 15rem; }
 
@@ -56,12 +80,4 @@ ul {
   justify-content: center;
   align-items: center; }
 
-.btn--index {
-  background-color: #CFE2F3;
-  padding: 2rem 20rem;
-  border-radius: 1.5rem;
-  border: 1px solid black;
-  margin-bottom: 3rem; }
-
-.btn--index h3 {
-  margin: 0; }
+/* responsive */
