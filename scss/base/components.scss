@@ -17,3 +17,86 @@
     }
 }
 
+
+.card-container {
+
+    
+    display: flex;
+    flex-direction: column;
+    column-gap: 3rem;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+    .card {
+
+        border-radius: 1.5rem;
+        background-color: $backgroundCards ;
+        margin-bottom: 3rem;
+        color: $pCards;
+        -webkit-box-shadow: 1px 4px 4px -1px #000000; 
+        box-shadow: 1px 4px 4px -1px #000000;
+    
+        
+        h2 {
+            color: $titleh2;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+       
+
+
+        .card-item {
+            row-gap: 2rem;
+
+            &:last-of-type {
+                margin-bottom: 2rem;
+            }
+            .little-card {
+                border: 1px solid black;
+                padding: 0 2rem;  
+            }
+
+        }
+
+
+        .videocall {
+            position: relative;
+
+            .main-img{
+                margin-top: 2rem;
+                max-width: 45rem;
+                max-height: 35rem;
+            }
+            
+        
+            .secondary-img {
+                position: absolute;
+                max-width: 12rem;
+                max-height: 10rem;
+                left: 0;
+                top: 20px;
+            }
+         
+    }
+
+    
+}
+
+
+    .videocall-on {
+        i {
+            font-size: 4rem;
+            padding: 0 2rem;
+            margin: 2rem 0;
+        }
+    }
+    
+}
+

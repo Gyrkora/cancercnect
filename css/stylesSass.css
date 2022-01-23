@@ -24,12 +24,27 @@ ul {
   list-style-type: none;
   padding: 0; }
 
+h1 {
+  color: #3372B8; }
+
 .container {
   max-width: 95%;
   margin: 0 auto; }
 
 .text-center {
   text-align: center; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 .btn--index {
   display: flex;
@@ -45,6 +60,49 @@ ul {
   margin-bottom: 3rem; }
   .btn--index h3 {
     margin: 0; }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 3rem;
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: space-between;
+  align-items: center; }
+  .card-container .card {
+    border-radius: 1.5rem;
+    background-color: #f4e2d6;
+    margin-bottom: 3rem;
+    color: #337d74;
+    -webkit-box-shadow: 1px 4px 4px -1px #000000;
+    box-shadow: 1px 4px 4px -1px #000000; }
+    .card-container .card h2 {
+      color: #A61458; }
+    .card-container .card h3 {
+      margin: 0; }
+    .card-container .card .card-item {
+      row-gap: 2rem; }
+      .card-container .card .card-item:last-of-type {
+        margin-bottom: 2rem; }
+      .card-container .card .card-item .little-card {
+        border: 1px solid black;
+        padding: 0 2rem; }
+    .card-container .card .videocall {
+      position: relative; }
+      .card-container .card .videocall .main-img {
+        margin-top: 2rem;
+        max-width: 45rem;
+        max-height: 35rem; }
+      .card-container .card .videocall .secondary-img {
+        position: absolute;
+        max-width: 12rem;
+        max-height: 10rem;
+        left: 0;
+        top: 20px; }
+  .card-container .videocall-on i {
+    font-size: 4rem;
+    padding: 0 2rem;
+    margin: 2rem 0; }
 
 /* sections */
 /* --------------- nav --------------- */
@@ -81,3 +139,12 @@ ul {
   align-items: center; }
 
 /* responsive */
+@media (min-width: 768px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+    margin: 0 auto;
+    max-width: 95%;
+    justify-content: space-between;
+    align-items: center; } }
