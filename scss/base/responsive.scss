@@ -12,4 +12,40 @@
         align-items: center;
 
     }
+
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
+
+        
+
+        .container-text {
+            max-width: 80%;
+        }
+
+        .footer-item {
+            margin-top: 5rem;
+            
+            div {
+                margin-top: 2rem;
+
+            
+                }
+
+            .social-media {
+
+                i {
+                    font-size: 3rem;
+                    padding-right:1rem;
+
+                    &:last-of-type {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        
+    }
  }

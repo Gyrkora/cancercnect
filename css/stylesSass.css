@@ -49,6 +49,9 @@ h1 {
 .p-y-3 {
   padding: 3rem 0; }
 
+.m-t-3 {
+  margin-top: 3rem; }
+
 .btn--index {
   display: flex;
   align-items: center;
@@ -143,6 +146,24 @@ ul {
   align-items: center;
   justify-content: space-evenly; }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #CFE2F3;
+  row-gap: 2rem; }
+  footer .container-text {
+    max-width: 50%;
+    margin: 0 auto; }
+  footer img {
+    max-width: 15rem; }
+  footer:last-of-type {
+    padding-bottom: 3rem; }
+  footer h4 {
+    margin: 0; }
+
 /* pages */
 /* --------------- main --------------- */
 .hero {
@@ -168,4 +189,19 @@ ul {
     margin: 0 auto;
     max-width: 95%;
     justify-content: space-between;
-    align-items: center; } }
+    align-items: center; }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start; }
+    footer .container-text {
+      max-width: 80%; }
+    footer .footer-item {
+      margin-top: 5rem; }
+      footer .footer-item div {
+        margin-top: 2rem; }
+      footer .footer-item .social-media i {
+        font-size: 3rem;
+        padding-right: 1rem; }
+        footer .footer-item .social-media i:last-of-type {
+          padding: 0; } }
