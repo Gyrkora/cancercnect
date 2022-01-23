@@ -1,0 +1,23 @@
+/* --------------- nav --------------- */
+
+
+.logo {
+    font-size: 3rem;
+    text-align: center;
+
+    img {
+        max-width: 15rem;
+    }
+    
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
