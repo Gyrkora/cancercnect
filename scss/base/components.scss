@@ -54,13 +54,16 @@
 
         .card-item {
             row-gap: 2rem;
+            
 
             &:last-of-type {
                 margin-bottom: 2rem;
             }
             .little-card {
                 border: 1px solid black;
-                padding: 0 2rem;  
+                padding: 0 2rem;
+                
+                background-color: lighten($backgroundColor, 5%);  
             }
 
         }
@@ -98,5 +101,36 @@
         }
     }
     
+}
+
+
+
+/* app */
+
+
+.app-container {
+
+    margin: 0 auto;
+    
+    max-width: 80%;
+
+    .app {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        img {
+            align-items: center;
+            justify-content: center;
+            -webkit-box-shadow: 1px 4px 4px -1px #000000; 
+        box-shadow: 1px 4px 4px -1px #000000;
+        }
+    }
+
+
 }
 

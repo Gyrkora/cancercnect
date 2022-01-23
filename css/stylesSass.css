@@ -46,6 +46,9 @@ h1 {
   align-items: center;
   justify-content: center; }
 
+.p-y-3 {
+  padding: 3rem 0; }
+
 .btn--index {
   display: flex;
   align-items: center;
@@ -86,7 +89,8 @@ h1 {
         margin-bottom: 2rem; }
       .card-container .card .card-item .little-card {
         border: 1px solid black;
-        padding: 0 2rem; }
+        padding: 0 2rem;
+        background-color: #d9e6f7; }
     .card-container .card .videocall {
       position: relative; }
       .card-container .card .videocall .main-img {
@@ -103,6 +107,23 @@ h1 {
     font-size: 4rem;
     padding: 0 2rem;
     margin: 2rem 0; }
+
+/* app */
+.app-container {
+  margin: 0 auto;
+  max-width: 80%; }
+  .app-container .app {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; }
+    .app-container .app img {
+      align-items: center;
+      justify-content: center;
+      -webkit-box-shadow: 1px 4px 4px -1px #000000;
+      box-shadow: 1px 4px 4px -1px #000000; }
 
 /* sections */
 /* --------------- nav --------------- */
